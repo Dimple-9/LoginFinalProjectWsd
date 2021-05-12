@@ -6,8 +6,8 @@
  * Finally, the user may login. If the user has registered but not verified themselves, a message will appear instructing them to do so. 
  * If the login is successful, the user is redirected to a page informing them of their success.  
  * STEPS TO RUN:
-  1. Click on, "Docker-compose.yml"
-  2. .env file needs to be placed inside the gitignore file before running. 
+  1. Place .env file in the root directory before running
+  2. Click on, "Docker-compose up"
 
  ### Screenshots:
  #### Login Page
