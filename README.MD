@@ -8,7 +8,7 @@
 
  ### Screenshots:
  #### Login Page
- ![](screenshots/Login.png)
+ ![](screenshots/LoginN.png)
  #### Registration Page
  ![](screenshots/RegistrationN.png)
  #### Successfully Logged in 
