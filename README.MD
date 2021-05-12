@@ -7,7 +7,7 @@
  * If the login is successful, the user is redirected to a page informing them of their success.  
  * STEPS TO RUN:
   1. Click on, "Docker-compose.yml"
-  2. .env file needs to be places inside before running. 
+  2. .env file needs to be placed inside the gitignore file before running. 
 
  ### Screenshots:
  #### Login Page
