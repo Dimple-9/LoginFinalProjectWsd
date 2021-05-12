@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	{% block head %}{% endblock %}
+  	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+  	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		{% block body %}{% endblock %}
+	</div>
+	{% block script %}{% endblock %}
+</body>
+</html>

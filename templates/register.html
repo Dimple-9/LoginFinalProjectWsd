@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Register</title > 	
+{% endblock %}
+
+{% block body %}
+<div class="container">
+	<h2>Register a new account</h2>
+	<p class="input-label">EMAIL</p>
+	<input id='email' type='text'/>
+	<span id='error-email' class='error'></span>
+	<p class="input-label">PASSWORD</p>
+	<input id='password' type='password'/>
+	<span id='error-password' class='error'></span>
+	<br>
+	<span id='success'></span>
+	<br><br>
+	<span id='redirect-message'></span>
+	<button id='register' type='button'>REGISTER</button>
+	<p>Already have an account? <a href='./'>Login here.</a></p>
+</div>
+{% endblock %}
+
+{% block script %}
+ <script src="{{ url_for('static', filename='js/register.js')}}"></script>
+ {% endblock %}
